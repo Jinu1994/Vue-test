@@ -1,7 +1,7 @@
 <template>
     <div>
         <h5>Question 5</h5>
-        <div id="test-container" >
+        <div id="test-container" :class="{red : isError == true, bold: isBold == true}">
             Change my attributes
         </div>
         <br/>
@@ -26,3 +26,11 @@ export default {
     }
 }
 </script>
+<style scoped>
+.red{
+    color : red;
+}
+.bold{
+    font-weight: bold;
+}
+</style>

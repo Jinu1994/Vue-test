@@ -16,6 +16,7 @@ export default {
     methods:{
         updateRating(){
             this.rating = this.rating + 1;
+            this.$emit('ratingChanged',this.rating)
         }
     }
 }

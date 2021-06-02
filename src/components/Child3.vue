@@ -1,5 +1,5 @@
 <template>
-    <div><span :class="{ 'top-most-item': index == 0 }">{{ myItem }}</span></div>
+    <div><span :class="{ 'top-most-item': index == 0 }">{{ item }}</span></div>
 </template>
 <script>
 export default {

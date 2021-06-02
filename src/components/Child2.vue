@@ -1,10 +1,10 @@
 <template>
     <div id="child2">
         <div class="header">
-            This is the header content to be replaced by parent
+            <slot name="header"></slot>
         </div>
         <div class="body">
-            This is the body content to be replaced by parent
+            <slot name="body"></slot>
         </div>
     </div>
 </template>

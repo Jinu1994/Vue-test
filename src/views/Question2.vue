@@ -3,7 +3,7 @@
     <div>
         <h5>Question 2</h5>
         
-        <child1 :parentRating="rating" ></child1>
+        <child1 :parentRating="rating" @ratingChanged = " rating  = $event " ></child1>
     </div>
 </template>
 <script>
